@@ -1,6 +1,6 @@
 # CPS493-classwork
 
-Name: Rishabh Patel
+Hey! Rishabh Patel here
 
 Myself :)![47FA671F-6EA3-4FE9-9E90-D412E3AD3C44](https://user-images.githubusercontent.com/89807042/188501409-ce5e6b3b-0f0a-47db-ba72-6d6ab6009020.JPG)
 
