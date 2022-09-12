@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<div lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+		<title>no framework</title>
+	</head>
+	<style>
+	navbar-brand {
+		color: aquamarine;
+	}
+	</style>
+
+	<body>
+		<div class="container">
+			<nav class="navbar is-primary">
+				<div class="navbar-brand">
+					<a class="navbar-item"> <img src="https://bulma.io/assets/Bulma%20Logo%20White.png"> </a>
+					<a role="button" class="navbar-burger"> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> </a>
+				</div>
+				<div class="navbar-menu">
+					<div class="navbar-start"> <a class="navbar-item" href="https://bulma.io/">
+              Home
+            </a>
+						<div class="navbar-item has-dropdown is-hoverable"> <a class="navbar-link" href="https://bulma.io/documentation/">
+                Docs
+              </a>
+							<div class="navbar-dropdown"> <a class="navbar-item" href="https://bulma.io/documentation/overview/">
+                  Overview
+                </a> <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/">
+                  Modifiers
+                </a> <a class="navbar-item" href="https://bulma.io/documentation/columns/">
+                  Columns
+                </a> <a class="navbar-item" href="https://bulma.io/documentation/layout/">
+                    Layout
+                  </a> <a class="navbar-item" href="https://bulma.io/documentation/form/">
+                    Form
+                </a>
+								<hr class="navbar-divider"> <a class="navbar-item" href="https://bulma.io/documentation/elements/">
+                  Elements
+                </a> <a class="navbar-item" href="https://bulma.io/documentation/components/">
+                    Components
+                </a> </div>
+						</div>
+					</div>
+					<div class="navbar-end">
+						<div class="navbar-item">
+							<div class="buttons">
+								<a class="button" href="https://twitter.com/?lang=en"> <span><i class="fa fa-twitter"></i> </span> Twitter </a>
+								<a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.9.4/bulma-0.9.4.zip"> <span class="icon"><i class="fa fa-download"></i></span> Download </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="section">
+				<div class="container">
+					<div class="columns">
+						<div class="column is-3">
+							<div class="card">
+								<header class="card-header">
+									<p class="card-header-title"> Component </p>
+									<button class="card-header-icon"> <span>
+                            <i class="fa fa-angle-down"></i>
+                          </span> </button>
+								</header>
+								<div class="card-content">
+									<div class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. <a href="#">@bulmaio. #css #responsive</a> 11:09 - 1 Jan 2016 </div>
+								</div>
+								<footer class="card-footer"> <a href="#" class="card-footer-item">Save</a> <a href="#" class="card-footer-item">Edit</a> <a href="#" class="card-footer-item">Delete</a> </footer>
+							</div>
+						</div>
+						<div class="column is-5">
+							<article class="panel">
+								<div class="tabs is-boxed">
+									<ul>
+										<li class="is-active">
+											<a> <span class="icon"><i class="fa fa-clipboard-list"></i></span> <span> Current </span> </a>
+										</li>
+										<li>
+											<a> <span class="icon"><i class="fa fa-calendar-times"></i></span> <span>
+                                    Completed
+                                </span> </a>
+										</li>
+										<li>
+											<a> <span class="icon"><i class="fa fa-calendar-plus"></i></span> <span>
+                                    Upcoming
+                                </span> </a>
+										</li>
+										<li>
+											<a> <span class="icon"><i class="fa fa-calendar"></i></span> <span>
+                                    All
+                                </span> </a>
+										</li>
+									</ul>
+								</div>
+								<div class="panel-block">
+									<p class="control has-icons-left">
+										<input class="input is-primary" placeholder="New Tasks"> <span class="icon is-left">
+                            <i class="fa fa-calendar-plus"></i>
+                          </span> </p>
+								</div>
+								<a class="panel-block">
+									<input type="checkbox" checked /> Make Bulma great again </a>
+								<a class="panel-block">
+									<input type="checkbox" /> Add some more features </a>
+								<a class="panel-block">
+									<input type="checkbox" /> Make a github account </a>
+								<a class="panel-block">
+									<input type="checkbox" /> Learn how to use github </a>
+								<a class="panel-block">
+									<input type="checkbox" /> Add a .gitignore file </a>
+							</article>
+						</div>
+						<div class="column is-3" is-end>
+							<h2 class="title">Table of content</h2>
+							<h3 class="subtitle">Intra-page navigation</h3>
+							<aside class="menu">
+								<p class="menu-label"> General </p>
+								<ul class="menu-list">
+									<li><a>Dashboard</a></li>
+									<li><a>Customers</a></li>
+								</ul>
+								<p class="menu-label"> Administration </p>
+								<ul class="menu-list">
+									<li> <a>Team Settings</a> </li>
+									<li> <a class="is-active">Manage Your Team</a>
+										<ul>
+											<li><a>Members</a></li>
+											<li><a>Plugins</a></li>
+											<li><a>Add a member</a></li>
+										</ul>
+									</li>
+									<li><a>Invitations</a></li>
+									<li><a>Cloud Storage Environment Settings</a></li>
+									<li><a>Authentication</a></li>
+								</ul>
+								<p class="menu-label"> Transactions </p>
+								<ul class="menu-list">
+									<li><a>Payments</a></li>
+									<li><a>Transfers</a></li>
+									<li><a>Balance</a></li>
+								</ul>
+							</aside>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+</body>
+
+</html>
